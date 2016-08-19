@@ -1,0 +1,25 @@
+{
+  "name": "run-simulator",
+  "version": "1.0.0",
+  "description": "Run simulation sets for probability analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanfuture/run-simulator.git"
+  },
+  "keywords": [
+    "probability",
+    "analysis",
+    "run",
+    "iteration"
+  ],
+  "author": "Sean Future",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanfuture/run-simulator/issues"
+  },
+  "homepage": "https://github.com/seanfuture/run-simulator#readme"
+}
