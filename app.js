@@ -43,7 +43,10 @@ function simulateMaxBets(initBalance, maxBets, people)
 		for(var person of people)
 		{
 
-			person.WatchedFlips++;
+			if(person.Bets < maxBets)
+			{
+				person.WatchedFlips++;
+			}
 
 			//Determine if person should bet
 			//Not exceeded their bet count
@@ -123,7 +126,7 @@ var people =
 				{ Name: "Sean", MinRunLength: 10 }
 			];
 console.log("Starting...");
-simulateMaxBets(1000000, 1000, people);
+simulateMaxBets(1000000, 10000, people);
 console.log("Finished!");
 console.log(JSON.stringify(people, null, "\t"));
 
